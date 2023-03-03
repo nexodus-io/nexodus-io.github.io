@@ -1,16 +1,243 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Coming Soon</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/script.js" ></script>
+    <title>WOW - Home</title>
 </head>
 <body>
-	<div class="container">
-        <img src="assets/wordmark.png" width="300"/>
-		<p>Coming soon.</p>
-        <img src="assets/logo.png" width="50"/>
-	</div>
+<!-- div used to make the body blur -->
+    <div class="overlay" id="overlay" onclick="closeNav()"></div>
+
+    <section class="head index-part-1">
+        <div class="head-bar">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6">
+                    <a href="index.html"><img class="img-responsive img-logo" src="assets/img/logo.png"></a>
+                </div>
+                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+                    <div id="mySidenav" class="sidenav text-center">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+                        <a href="index.html">Home</a><hr>
+                        <a href="#">Try Nexodus</a>
+                       <!--<a href="generic.html">Generic</a><hr>
+                        <a href="element.html">Element</a>  -->            
+                    </div>
+                    <div class="main" id="main">
+                      <a href="#" onclick="openNav()">MENU &#9776;</a>
+                    </div>
+                </div>
+              </div>
+              <hr>
+          </div>
+          </div>
+          <div class="wow">
+          <div class="container">
+            <div class="row">
+               <div class="wordmark">
+                  <img class="img-responsive img-logo-center" src="assets/img/wordmark.png">
+               </div> 
+               <div class="font-1 helmet text-center">
+                 <p>Secure IP Connectivity for Hybrid Infrastructure and the Edge</p>
+               </div>
+               <div class="wow-btn text-center">
+                     <a class="btn btn-default wow-button" href="#">Try Nexodus (Coming Soon)</a>
+               </div>
+            </div>
+          </div>
+        </div>
+    </section>
+ 
+    <section class="index-part-2">
+         <div class="container">
+
+            <div class="row">
+               <div class="text-center">
+                 <h2>Features</h2>
+               </div>
+               <hr class="hr-mid">
+               <div class="sub-text text-center">
+                     <p class="font-1">
+                      This project is implementing an IP connectivity-as-a-service solution that provides isolated connectivity using Wireguard.
+                     </p>
+               </div>
+           </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                      <div class="block text-center block-first">
+                                 <div class="icon">
+                                    <i class="fa fa-sliders fa-2x"></i>
+                                 </div>  
+                                   <h4>Custom Authentication</h4>
+                                   <p class="font-2">Nexodus uses OpenID Connect (OIDC) for authentication, allowing you to choose from a broad ecosystem of OIDC providers.</p>
+                        </div>   
+                </div>
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                      <div class="block text-center block-second">
+                             <div class="icon">
+                                  <i class="fa fa-fast-forward fa-2x"></i>
+                             </div>  
+                              <h4>Optimal Connectivity</h4>
+                              <p class="font-2">Nexodus provides direct, mesh connectivity wherever possible, even in places where NAT or firewalls would typically prevent it.</p>                                       
+                      </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                    <div class="block text-center block-third">
+                                 <div class="icon">
+                                     <i class="fa fa-lock fa-2x"></i>
+                                 </div>  
+                                   <h4>Security</h4>
+                                   <p class="font-2">Traffic is encrypted using Wireguard without requiring access to any device's traffic.</p>
+                    </div>   
+                </div>
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                    <div class="block text-center block-last">
+                            <div class="icon">
+                                 <i class="fa fa-suitcase fa-2x"></i>
+                            </div>  
+                            <h4>IP Mobility</h4>
+                            <p class="font-2">Devices connected to Nexodus get a consistent IP address that moves with them.</p>                                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="index-part-3">
+        <div class="container">
+                <div class="row why-div">
+                  <div class="text-center">
+                         <h2>Why Nexodus</h2>
+                  </div>
+                       <hr class="hr-mid">
+                       <div class="sub-text text-center">
+                             <p class="font-1">
+                                Nexodus ensures people can spend less time worrying about connectivity among disparate infrastructure.
+                             </p>
+                       </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-9 col-sm-12 col-md-9 col-xs-12">
+                     <div class="holder-para">
+                      <h3>Edge Networking</h3>
+                      <hr class="hr-short">
+                      <p class="font-2">
+                            Provide secure connectivity with consistent addressing without having to worry about differences among locations or accounting for changes if the device moves to a new location.
+                      </p>
+                     </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3">
+                            <div class="holder-img">
+                              <img class="round-img img-responsive center-block" src="assets/img/logo-with-space.png">
+                            </div>
+                    </div>
+                </div>
+
+                <hr class="line-full">
+                
+                <div class="row"> 
+                    <div class="col-lg-9 col-xs-12 col-sm-12 col-md-9 col-md-push-3">
+                     <div class="holder-para">
+                      <h3>Compliance</h3>
+                      <hr class="hr-short">
+                      <p class="font-2">
+                        Provide isolated connectivity among a set of nodes, even if they are running across multiple network administrative domains.
+                      </p>
+                     </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3 col-md-pull-9">
+                            <div class="holder-img">
+                              <img class="round-img img-responsive center-block" src="assets/img/logo-with-space.png">
+                            </div>
+                    </div> 
+                </div>
+
+                <hr class="line-full">
+                
+                <div class="row">
+                    <div class="col-lg-9 col-xs-12 col-sm-12 col-md-9">
+                     <div class="holder-para">
+                      <h3>Hybrid data center connectivity</h3>
+                      <hr class="hr-short">
+                      <p class="font-2">
+                        Circumvent NAT and Firewall challenges to provide secure connectivity to the specific devices you require, regardless of where they are.      
+                      </p>
+                     </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3">
+                            <div class="holder-img">
+                              <img class="round-img img-responsive center-block" src="assets/img/logo-with-space.png">
+                            </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+                
+    <section class="index-part-4">
+         <div class="container">
+                
+                <div class="row">
+                       <div class="text-center">
+                         <h2>Try it now</h2>
+                       </div>
+                       <hr class="hr-mid">
+                       <div class="sub-text text-center">
+                             <p class="font-1">
+                                Try Nexodus using the demo service operated by the Nexodus project.
+                             </p>
+                       </div>
+                </div>
+
+                <div class="row text-center">
+                     <a class="btn btn-default wow-button" href="#">Try Nexodus (Coming Soon)</a>
+                </div>
+          </div>
+    </section>
+
+    <section class="social">
+      <ul>
+        <li><a href="https://github.com/nexodus-io/nexodus" class="fa fa-github fa-2x" aria-hidden="true"></a></li>
+      </ul>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <div class="footer-p1">
+                    <p class="font-2">Copyright 2023 by Nexodus.io contributors.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <img class="img-responsive foot-img" src="assets/img/logo.png">
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <div class="footer-p2" >
+                     <p class="font-2">Theme made with <i class="fa fa-heart" aria-hidden="true" ></i> by <a href="https://themewagon.com/themes/" target="_blank">themewagon</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
 </body>
 </html>
+
+
