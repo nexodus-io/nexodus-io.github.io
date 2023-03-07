@@ -94,7 +94,7 @@ body {
     padding-top:10vh;
 }
 .img-logo{
-    max-height: 6vh;
+    max-height: 5vh;
     /*margin-left: auto;*/
     margin-right: auto;
 }
@@ -416,6 +416,7 @@ textarea{
 .foot-img{
     margin-right: auto;
     margin-left: auto;
+    max-height: 5vh;
 }
 .why-div{
     margin-bottom:35px;
